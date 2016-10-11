@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Sigaaae by SchafferJr</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Sigaaae</h1>
+      <h2 class="project-tagline"></h2>
+      <a href="https://github.com/SchafferJr/SigaaAE" class="btn">View on GitHub</a>
+      <a href="https://github.com/SchafferJr/SigaaAE/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/SchafferJr/SigaaAE/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <p>&lt;!DOCTYPE html&gt;</p>
+
+
+
+<p></p>
+
+<p></p>
+
+<p></p>SIGAA - Apenas Entre
+
+<p></p>
+
+
+*{
+    
+     overflow: hidden;
+     font-size: 30px;
+     font-family: VERDANA;
+
+}
+body{
+    background-color: #444;
+    padding: 0;
+    margin: 0;
+}
+
+input{
+    color:#ccc;
+    background-color: #444;
+    border:solid 1px;
+    
+
+}
+
+
+
+.entre{
+    background-color: #444;
+    border: solid 1px;
+    cursor: pointer;
+    position: relative;
+    left: 10.1rem;
+    font-size: 35px;
+
+}
+.entre:hover{
+    background-color: #ccc;
+    color: #444;
+    -webkit-transition: ease 0.5s; /* Safari */
+    transition: ease 0.5s;
+    -moz-transition: ease 0.5s;
+    -o-transition: ease 0.5s;
+
+}
+
+.entre:focus{
+    outline: none;
+
+}
+.logar:focus{
+    background-color: #eee;
+    color:#444;
+}
+
+
+.senha{
+    -webkit-text-security: square;
+}
+
+input:-webkit-autofill {
+  background-color: #777 !important;
+  border:solid 1px #ccc;
+  -webkit-text-fill-color: #eee !important;
+  -webkit-box-shadow: 0 0 0px 1000px #777  inset;
+ 
+  color: #ccc !important;
+}
+
+input:-webkit-autofill:focus {
+  background-color: #777  !important;
+  border:solid 1px #ccc;
+  -webkit-text-fill-color: #eee !important;
+  -webkit-box-shadow: 0 0 0px 1000px #777  inset;
+  outline: none;
+  color: #ccc !important;
+}
+input:-webkit-autofill:active {
+  background-color: #777  !important;
+  border:solid 1px #ccc;
+  -webkit-text-fill-color: #eee !important;
+  -webkit-box-shadow: 0 0 0px 1000px #777  inset;
+  outline: none;
+  color: #ccc !important;
+}
+
+.logar{
+    margin-bottom: 15px;
+    padding-left: 5px;
+}
+.conteudo{
+    margin-left: 5%;
+}
+
+.btn{
+    margin-top: 2%;
+    margin-left: -18.5%;
+
+}
+
+.btn2{
+    margin-top: 20%;
+    margin-left: -24.5%;
+
+}
+
+.pg2{
+    margin-top: 2%;
+    
+
+}
+
+.pg2 input{
+    margin-top: 1%;
+}
+
+.calc{
+    margin-left: -4.3%;
+}
+
+#visor{
+    width: 150px;
+    margin-left: -9%;
+}
+
+p{
+    color:#888;
+    font-size: 20px;
+
+}
+
+i{
+    font-size: 16px;
+}
+
+
+
+<p></p>
+
+<p></p>
+                <div>
+                <p><strong>Entre no SIGAA</strong></p>
+                <p>Nenhuma informação será salva.</p>
+
+<pre><code>            &lt;form name="loginForm" method="post" action="https://si3.ufc.br/sigaa/logar.do?dispatch=logOn"&gt;
+                &lt;input type="hidden" name="width" value="1440" id="width"&gt;
+                &lt;input type="hidden" name="height" value="900" id="height"&gt;
+                &lt;input type="hidden" name="urlRedirect" value=""&gt;
+                &lt;input type="hidden" name="acao" value=""&gt;
+
+                &lt;script&gt;
+                    document.getElementById('width').value = screen.width;
+                    document.getElementById('height').value = screen.height;
+                &lt;/script&gt;
+
+
+
+                &lt;input class="logar" type="text" name="user.login" size="20" value="" enabled="" placeholder="User"&gt;&lt;br&gt;
+                &lt;input class="logar senha"  type="password" name="user.senha" size="20" value="" enabled="" placeholder="Password"&gt;&lt;br&gt;     
+                &lt;input class="entre" type="submit" name="entrar" value="Login" enabled=""&gt;
+
+
+
+
+            &lt;/form&gt;
+            &lt;/div&gt;
+
+
+
+            &lt;div class="conteudo pg1"&gt;
+            &lt;p style="background-color: #444; color:#ccc;"&gt;&lt;strong&gt;Saldo RU Card&lt;/strong&gt;&lt;/p&gt;
+            &lt;p&gt;Nenhuma informação será salva.&lt;/p&gt;
+
+            &lt;form name="usuarioForm" method="post" action="https://si3.ufc.br/sipac/logon.do"&gt;
+
+
+                &lt;input class="logar" type="text" name="login" value="" placeholder="User"&gt;&lt;br&gt;
+                &lt;input class="logar senha" type="password" name="senha" size="20" value="" placeholder="Password"&gt;&lt;br&gt;
+                &lt;input class="entre" type="submit" name="entrar" value="Login" &gt;&lt;br&gt;
+
+
+            &lt;/form&gt;
+</code></pre>
+
+<p>
+</p>
+</div>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/SchafferJr/SigaaAE">Sigaaae</a> is maintained by <a href="https://github.com/SchafferJr">SchafferJr</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
